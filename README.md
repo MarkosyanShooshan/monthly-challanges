@@ -33,20 +33,35 @@
 ## 📂 Նախագծի Կառուցվածքը (Project Structure)
 
 monthly-challenges/
+
 │
+
 ├── amisner/                # Django նախագծի հիմնական կոնֆիգուրացիոն պանակը
+
 │   ├── settings.py         # Կարգավորումներ (Apps, Templates, Static)
+
 │   ├── urls.py             # Գլխավոր URL կանոնները
+
 │   └── wsgi.py / asgi.py
+
 │
+
 ├── challenges/             # Հիմնական հավելվածը (App)
+
 │   ├── views.py            # Լոգիկա (ամիսների մշակում, redirect-ներ)
+
 │   ├── urls.py             # Հավելվածի երթուղիները
+
 │   └── apps.py
+
 │
+
 ├── templates/              # Ընդհանուր HTML շաբլոններ (ներառյալ base.html, 404.html)
+
 ├── static/                 # Ստատիկ ֆայլեր (CSS ոճեր, պատկերներ)
+
 ├── manage.py               # Django-ի ղեկավարման սկրիպտը
+
 └── db.sqlite3              # Տվյալների բազա
 
 
