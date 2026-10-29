@@ -69,21 +69,32 @@ monthly-challenges/
 🚀 Տեղադրում և Գործարկում (Installation & Setup)
 Նախագիծը ձեր համակարգչում տեղային (locally) աշխատեցնելու համար հետևեք հետևյալ քայլերին.
 1. Կլոնավորել ռեպոզիտորիան
+ 
 git clone https://github.com/MarkosyanShooshan/monthly-challanges.git
+
 cd monthly-challanges
+
 2. Ստեղծել և ակտիվացնել վիրտուալ միջավայրը (Virtual Environment)
 Windows:
 python -m venv venv
 venv\Scripts\activate
+
 macOS / Linux:
 python3 -m venv venv
 source venv/bin/activate
+
 3. Տեղադրել Django-ն
+
 pip install django
+
 4. Կատարել միգրացիաները (Migrations)
+ 
 python manage.py migrate
+
 5. Գործարկել սերվերը
+    
 python manage.py runserver
+
 Բրաուզերում բացեք հետևյալ հասցեն՝
 👉 http://127.0.0.1:8000/challenges/
 
@@ -99,3 +110,5 @@ Django Admin Panel-ի միջոցով մարտահրավերների ավելաց
 
 👤 Հեղինակ (Author)
 Շուշան Մարկոսյան — https://github.com/MarkosyanShooshan
+
+
