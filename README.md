@@ -1,5 +1,107 @@
-# 📅 Monthly Challenges (Ամսական Մարտահրավերներ)
 
+# 📅 Monthly Challenges (Django Web Application)
+
+[ 🇬🇧 English Version ](#english) | [ 🇦🇲 Հայերեն Տարբերակ ](#armenian)
+
+
+<span id="english"></span>
+## 🇬🇧 English
+
+> A dynamic web application built with Python and the Django framework, designed to track and view monthly goals, habits, and challenges throughout the year.
+
+### 📌 About the Project
+
+**Monthly Challenges** is an interactive web platform demonstrating foundational Django concepts. The app presents an overview of all 12 months, where selecting any month reveals a tailored task or challenge planned for that specific period.
+
+The project highlights key architectural features of Django, including dynamic URL routing with type converters, reverse URL resolution, template inheritance, custom error handling (404), and static asset management.
+
+### ✨ Key Features
+
+- **Dynamic URL Routing:** Dynamic route handling supporting both month names (e.g., `/challenges/january`) and numerical indices (e.g., `/challenges/1`).
+- **Smart Redirection:** Automatically redirects numeric month routes to their corresponding canonical month names using Django's `reverse()` utility.
+- **Django Template Engine (DTL):** Clean and maintainable layout using template inheritance (`base.html`), template blocks (`{% block %}`), and conditional rendering.
+- **Custom 404 Error Handling:** User-friendly fallback pages for invalid or non-existent months.
+- **Static Assets Integration:** Clean, responsive UI powered by custom CSS styling.
+
+### 🛠 Tech Stack
+
+- **Backend:** Python 3.x, Django
+- **Frontend:** HTML5, CSS3, Django Template Language (DTL)
+- **Database:** SQLite3
+
+### 📂 Project Structure
+
+monthly-challenges/
+│
+├── amisner/                # Django project configuration folder
+│   ├── settings.py         # Project settings
+│   ├── urls.py             # Root URL routing
+│   └── wsgi.py / asgi.py
+│
+├── challenges/             # Core application
+│   ├── views.py            # Business logic (month handlers, redirects)
+│   ├── urls.py             # App-level routing
+│   └── apps.py
+│
+├── templates/              # HTML templates (base.html, 404.html, challenges/)
+├── static/                 # Static assets (CSS stylesheets)
+├── manage.py               # Django management script
+└── requirements.txt
+
+
+🚀 Installation & Setup
+Follow these steps to run the project locally on your machine:
+Clone the repository:
+
+
+git clone https://github.com/MarkosyanShooshan/monthly-challanges.git
+cd monthly-challanges
+Create and activate a virtual environment:
+Windows:
+
+
+python -m venv venv
+venv\Scripts\activate
+macOS / Linux:
+
+
+python3 -m venv venv
+source venv/bin/activate
+Install dependencies:
+
+
+pip install django
+(or pip install -r requirements.txt if available)
+Apply database migrations:
+
+
+python manage.py migrate
+Run the development server:
+
+
+python manage.py runserver
+View the application:
+Open your browser and navigate to:
+👉 http://127.0.0.1:8000/challenges/
+
+
+🔮 Future Roadmap
+
+Store challenges in a database using Django Models
+
+Django Admin integration for adding and editing challenges dynamically
+
+User authentication and personal challenge completion tracking
+
+Progress dashboard with completion stats
+
+
+
+
+
+<span id="armenian"></span>
+🇦🇲 Հայերեն
+# 📅 Monthly Challenges (Ամսական Մարտահրավերներ)
 > Դինամիկ վեբ-հավելված՝ կառուցված Python-ի և Django ֆրեյմվորքի հիման վրա, որը թույլ է տալիս դիտել յուրաքանչյուր ամսվա համար նախատեսված նպատակներն ու մարտահրավերները (challenges):
 
 ---
