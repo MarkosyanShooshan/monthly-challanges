@@ -59,7 +59,7 @@ monthly-challenges/
 
 ├── manage.py               # Django management script
 
-└── requirements.txt
+
 
 
 🚀 Installation & Setup
@@ -166,7 +166,7 @@ monthly-challenges/
 
 ├── manage.py               # Django-ի ղեկավարման սկրիպտը
 
-└── db.sqlite3              # Տվյալների բազա
+
 
 
 
