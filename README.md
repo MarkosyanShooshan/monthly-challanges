@@ -62,6 +62,9 @@ monthly-challenges/
 
 
 
+
+
+
 🚀 Installation & Setup
 Follow these steps to run the project locally on your machine:
 Clone the repository:
@@ -87,6 +90,7 @@ Open your browser and navigate to:
 👉 http://127.0.0.1:8000/challenges/
 
 
+
 🔮 Future Roadmap
 
 Store challenges in a database using Django Models
@@ -96,6 +100,9 @@ Django Admin integration for adding and editing challenges dynamically
 User authentication and personal challenge completion tracking
 
 Progress dashboard with completion stats
+
+
+
 
 
 
@@ -170,6 +177,8 @@ monthly-challenges/
 
 
 
+
+
 🚀 Տեղադրում և Գործարկում (Installation & Setup)
 Նախագիծը ձեր համակարգչում տեղային (locally) աշխատեցնելու համար հետևեք հետևյալ քայլերին.
 1. Կլոնավորել ռեպոզիտորիան
@@ -201,6 +210,8 @@ python manage.py runserver
 
 Բրաուզերում բացեք հետևյալ հասցեն՝
 👉 http://127.0.0.1:8000/challenges/
+
+
 
 🔮 Հետագա Բարելավումներ (Future Roadmap)
 
