@@ -1,4 +1,3 @@
-
 # 📅 Monthly Challenges (Django Web Application)
 
 [ 🇬🇧 English Version ](#english) | [ 🇦🇲 Հայերեն Տարբերակ ](#armenian)
@@ -33,52 +32,55 @@ The project highlights key architectural features of Django, including dynamic U
 
 monthly-challenges/
 │
-├── amisner/                # Django project configuration folder
+
+├── amisner/  # Django project configuration folder
+
 │   ├── settings.py         # Project settings
+
 │   ├── urls.py             # Root URL routing
+
 │   └── wsgi.py / asgi.py
+
 │
+
 ├── challenges/             # Core application
+
 │   ├── views.py            # Business logic (month handlers, redirects)
+
 │   ├── urls.py             # App-level routing
+
 │   └── apps.py
+
 │
+
 ├── templates/              # HTML templates (base.html, 404.html, challenges/)
+
 ├── static/                 # Static assets (CSS stylesheets)
+
 ├── manage.py               # Django management script
+
 └── requirements.txt
 
 
 🚀 Installation & Setup
 Follow these steps to run the project locally on your machine:
 Clone the repository:
-
-
 git clone https://github.com/MarkosyanShooshan/monthly-challanges.git
 cd monthly-challanges
 Create and activate a virtual environment:
 Windows:
-
-
 python -m venv venv
 venv\Scripts\activate
 macOS / Linux:
-
-
 python3 -m venv venv
 source venv/bin/activate
+
 Install dependencies:
-
-
 pip install django
 (or pip install -r requirements.txt if available)
 Apply database migrations:
-
-
 python manage.py migrate
 Run the development server:
-
-
 python manage.py runserver
 View the application:
 Open your browser and navigate to:
